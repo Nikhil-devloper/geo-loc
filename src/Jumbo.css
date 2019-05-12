@@ -1,0 +1,58 @@
+.summer {
+  height: 100vh;
+  background: url('beach.png') no-repeat;
+}
+
+.winter {
+  height: 100vh;
+  background: url('winter.jpg') no-repeat;
+
+}
+
+.center-block {
+  top:50%;
+  left: 50%;
+  transform: translate3d(-50%,-50%, 0);
+  position: absolute;
+}
+
+
+/* font-family: 'Reenie Beanie', cursive; */
+
+.head {
+  font-family: 'Reenie Beanie', cursive;
+  font-weight: bold;
+  color: white;
+  font-size: 7.5rem;
+  text-align: center;
+}
+
+.lead{
+  text-align: center;
+  color: white;
+  font-weight: 15px;
+
+}
+
+.le {
+  text-align: center;
+  color: black;
+  font-weight: 15px;
+}
+
+.pencil {
+  color: black;
+}
+
+@media only screen and (max-width: 992px) {
+  .head {
+      font-size: 4.5rem;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .head {
+    font-size: 2.5rem;
+  }
+}
